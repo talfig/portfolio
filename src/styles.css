@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App-wide styles */
+:root {
+  --radius: 24px;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+}
+
+/* Smooth scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #7c5cff #0b1220;
+}
+*::-webkit-scrollbar { width: 8px; height: 8px; }
+*::-webkit-scrollbar-thumb { background: #7c5cff; border-radius: 8px; }
+*::-webkit-scrollbar-track { background: #0b1220; }
+
+/* Cursor hidden on big glow */
+.cursor-none .hide-cursor { cursor: none; }
