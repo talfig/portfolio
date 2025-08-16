@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <header className="sticky top-0 backdrop-blur supports-[backdrop-filter]:bg-background/60 bg-background/80 z-50 border-b border-accent/40">
       <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 h-16">
-        <a href="#" className="font-semibold tracking-tight text-lg">Josh Rock</a>
+        <a href="#" className="font-semibold tracking-tight text-lg">Tal Figenblat</a>
         <div className="flex items-center gap-3">
           <a className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-accent/40 hover:bg-accent/70 transition shadow-glow"
              href="#projects" aria-label="Projects">Projects</a>

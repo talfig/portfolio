@@ -17,7 +17,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.6 }}
       >
-        I'm Josh, an 18-year-old developer and researcher in Israel (GPA 99). I build computer vision and ML systems, from real-time ASL recognition with MobileNetV2/ResNet + MediaPipe to multimodal search over large MEGA datasets. I enjoy CUDA, PyTorch, CTF-style reverse engineering, and clean, production-grade UIs.
+        I am a researcher and developer primarily experienced in Python, JavaScript, C and Java. Passionate about AI, Cyber Security and tech innovation. Deep understanding of algorithms and programming techniques. Focused on contributing to impactful products that drive meaningful change.
       </motion.p>
       <motion.div
         className="mt-10 flex flex-wrap gap-3"

@@ -1,4 +1,4 @@
-# Josh Rock — Portfolio
+# Portfolio
 
 A sleek React + Vite + Tailwind portfolio with animated gradient background, custom cursor glow, and mouse trail.
 

@@ -3,17 +3,17 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const frames = {
   Terminal: [
-    "(gdb) run ./josh_portfolio",
+    "(gdb) run ./portfolio",
     "Starting program...",
     "Breakpoint hit at main()",
     "Exploring portfolio..."
   ],
   Disasm: [
     "(gdb) disassemble /m main",
-    "=> 0x0804923e <+0>: Josh Rock — Developer & ML Researcher",
-    "   0x08049242 <+4>: Age: 18, GPA: 99",
+    "=> 0x0804923e <+0>: Developer & ML Researcher",
+    "   0x08049242 <+4>: GPA: 97",
     "   0x08049245 <+7>: Skills: PyTorch, CUDA, React, Tailwind, OpenCV, CTF/RE",
-    "   0x08049248 <+10>: Projects: ASL Recognition, MegaSearch-AI",
+    "   0x08049248 <+10>: Projects: ASL Recognition, Assembler, MegaSearch-AI",
     "   0x0804924c <+14>: Languages: Python, C, C++, Java, C#"
   ],
   Registers: [
@@ -51,7 +51,7 @@ export default function Phone() {
       {/* Screen */}
       <div className="absolute inset-0 p-4 pt-10 flex flex-col">
         <div className="flex items-center justify-between mb-2 text-xs text-foreground/60">
-          <span>gdb@josh_portfolio</span>
+          <span>gdb@portfolio</span>
           <span>{tab}</span>
         </div>
 
