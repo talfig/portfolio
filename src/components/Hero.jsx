@@ -25,10 +25,18 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.5 }}
       >
-        <a href="#projects" className="px-4 py-2 rounded-xl bg-primary text-background hover:shadow-glow transition">
+        <a
+          href="#projects"
+          className="px-4 py-2 rounded-xl bg-primary text-background font-medium hover:shadow-glow transition"
+        >
           See Projects
         </a>
-        <a href="#contact" className="px-4 py-2 rounded-xl bg-accent/50 hover:bg-accent transition">
+
+        <a
+          href="#contact"
+          className="px-5 py-2.5 rounded-2xl bg-muted/60 border border-accent/40 font-semibold text-white shadow-md
+                     hover:bg-accent/50 transition-all duration-200"
+        >
           Contact Me
         </a>
       </motion.div>
