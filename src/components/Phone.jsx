@@ -12,21 +12,21 @@ const frames = {
     "(gdb) disassemble /m main",
     "=> 0x0804923e <+0>: Developer & ML Researcher",
     "   0x08049242 <+4>: GPA: 97",
-    "   0x08049245 <+7>: Skills: PyTorch, CUDA, React, Tailwind, OpenCV, CTF/RE",
+    "   0x08049245 <+7>: Skills: PyTorch, CUDA, OpenCV, CTF/RE",
     "   0x08049248 <+10>: Projects: ASL Recognition, Assembler, MegaSearch-AI",
-    "   0x0804924c <+14>: Languages: Python, C, C++, Java, C#"
+    "   0x0804924c <+14>: Languages: Python, C, C++, Java, JavaScript"
   ],
   Registers: [
     "(gdb) i r",
-    "eax            0x0  // Enthusiasm Level",
-    "ebx            0x1  // Curiosity Level",
-    "ecx            0x42 // GPA mapped to hex (66)",
-    "edx            0x99 // Years of research potential"
+    "eax            0xFF  // Enthusiasm Level",
+    "ebx            0xFF  // Curiosity Level",
+    "ecx            0x61  // GPA mapped to hex (97)",
+    "edx            0x2   // Years of research"
   ],
   Memory: [
     "(gdb) x/4wx $esp",
     "0xbffff1e0:  'Research', 'ML', 'Computer Vision', 'AI'",
-    "0xbffff1f0:  'PyTorch', 'CUDA', 'React', 'Tailwind'"
+    "0xbffff1f0:  'PyTorch', 'CUDA', 'OpenCV', 'CTF/RE'"
   ]
 };
 

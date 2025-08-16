@@ -7,8 +7,8 @@ export default function Experience() {
       <ul className="space-y-4 list-disc pl-6 marker:text-primary">
         <li>Hands-on with CUDA 11.2/12.6 + cuDNN (TensorFlow & PyTorch pipelines), environment setup and troubleshooting.</li>
         <li>Built custom CNNs and modified MobileNetV2/ResNet18 heads; experimented with channel attention; sequence models (LSTM) for temporal smoothing.</li>
-        <li>Solid OOP foundations in Java/C#; Networking theory (HTTP/HTTPS, OSI), and practical CI/CD usage.</li>
-        <li>High academic performance (GPA 99) and strong research orientation.</li>
+        <li>Solid OOP foundations in Java; Networking theory (HTTP/HTTPS, OSI), and practical CI/CD usage.</li>
+        <li>High academic performance (GPA 97) and strong research orientation.</li>
       </ul>
     </section>
   )

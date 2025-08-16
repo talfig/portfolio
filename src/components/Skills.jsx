@@ -32,11 +32,11 @@ export default function Skills() {
         <div className="p-5 rounded-2xl bg-muted/60 border border-accent/40">
           <h3 className="font-semibold mb-3 flex items-center gap-2"><GitBranch className="w-4 h-4"/> Software</h3>
           <div className="flex flex-wrap gap-2">
-            <SkillTag>React + Tailwind</SkillTag>
+            <SkillTag>Machine Learning</SkillTag>
             <SkillTag>OpenCV</SkillTag>
             <SkillTag>CI/CD (user)</SkillTag>
             <SkillTag>Networking theory</SkillTag>
-            <SkillTag>Java / C# OOP</SkillTag>
+            <SkillTag>Java OOP</SkillTag>
             <SkillTag>Security & RE (CTF)</SkillTag>
           </div>
         </div>
